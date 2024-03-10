@@ -1,0 +1,14 @@
+/*
+Sean Peters
+March 7, 2024
+Exam 2
+styles.css
+*/
+
+body {
+	background-color: #a82c2c;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
