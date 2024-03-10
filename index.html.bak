@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!--
 Sean Peters
 Gitting Some Practice
 March 10, 2024
 index.html
 -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"><!--Bootstrap-->
+    <link rel="stylesheet" href="styles.css"><!--Link-->
     <title>Spring is Near!</title>
 </head>
+
 <body>
+    <div class="jumbotron text-center"><!--Jumbotron-->
+        <h1>Spring is Near!</h1>
+    </div>
 
-    <h1>Spring is Near!</h1>
+    
+    <div class="container text-center">
+        <img src="spring ish.png" alt="spring resize img" class="img-fluid"><!--Replacement Image-->
+    </div>
 
- 
-    <footer>
+    <!-- Footer -->
+    <footer class="text-center">
         <p>&copy; 2024 SpringTimeLLC. All rights reserved. | Sean P.</p>
     </footer>
 
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
